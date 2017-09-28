@@ -8,7 +8,7 @@
 
 //Assumption : Array is sorted!!
 //---------------------------------------------
-let sortedArray = [4,5,6,8,15];
+let sortedArray = [1,2,3,3,5];
 let numberOfIterations = 0;
 
 function sequenceHasDuplicates(arrayToSearch){

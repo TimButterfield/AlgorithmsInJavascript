@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------
 //A more efficient method is to use a function (only works with contigous numbers)
 //ASSUMPTION : Numbers are contiguous
-//Sum function is n(n+1)/2
+//Sum function is n(n+1)/2 - See Gauss
 //This function is in O(1). The number of elements in the array does not
 //alter the complexity
 //-----------------------------------------------------------------------
