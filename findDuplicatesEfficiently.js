@@ -5,7 +5,8 @@
 //In terms of complexity it's O(n).
 //Since we have to iterate the array in full once
 
-//Assumption : Array is sorted and numbers are contingous
+//Assumption : Array is sorted and numbers are contingous,
+//with the exception of a single duplicate
 //---------------------------------------------
 
 const findDuplicates = function(arrayToSearch){

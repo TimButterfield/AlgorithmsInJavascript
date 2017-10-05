@@ -6,9 +6,10 @@
 //and inelegant. Scales badly as the volume of
 //scales
 
-//Assumption : Array is sorted!!
+//Assumption : Array is sorted and numbers are contingous,
+//with the exception of a single duplicate
+
 //---------------------------------------------
-let sortedArray = [1,2,3,3,5];
 let numberOfIterations = 0;
 
 function sequenceHasDuplicates(arrayToSearch){
@@ -38,6 +39,6 @@ function sequenceHasDuplicates(arrayToSearch){
   };
 
 
-let result = sequenceHasDuplicates(sortedArray);
+let result = sequenceHasDuplicates([1,2,3,3,5]);
 console.log("The array " + result.logStatement);
 console.log("Iterated " + numberOfIterations + " times");
