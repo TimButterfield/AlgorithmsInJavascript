@@ -35,6 +35,7 @@ function linkedList() {
 
         if (rootItem.next != null){
           findAllNodesEqualOrAbove(rootItem.next, minAge, matches);
+          return matches;
         }
       }
     }
