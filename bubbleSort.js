@@ -1,5 +1,7 @@
 /*
-Sort the ages of a group of people
+Sort the ages of a group of people in ascending or descending orderCriteria
+
+:Note due to loop nested in recursive function it's O(n ^ 2) algorithm, so inefficient. 
 */
 
 let group = [
