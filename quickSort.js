@@ -35,7 +35,7 @@ function quickSort(elementsToSort){
       numbersLargerThanPivot.push(current);
     }
   }
-  iterations = iterations + 1;
+  iterations++;
   return quickSort(numbersLessThanPivot).concat([pivot], quickSort(numbersLargerThanPivot));
 }
 var numbersToSort = [32, 64, 1, 14, 58, 41, 29, 18, 61, 10, 17, 37];
